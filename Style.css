@@ -1,0 +1,81 @@
+body{
+    background-color: #212C34;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.innhold{
+    font-family: "calibri";
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.innhold .innhold_kafé{
+    color: white;
+    height: 700px;
+    width: 630px;
+    background-color: #3D7A79;
+    text-align: center;
+    line-height: 10px;
+    margin: 5px;
+    text-align: start;
+}
+
+.innhold .innhold_kafé h3 {
+    font-size: 50px;
+    text-align: center;    
+}
+
+.innhold dd {
+    padding: 4px;
+    line-height: 30px;
+    font-size: 20px;
+    /*margin-left: 0px;*/
+}
+
+.innhold dt {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.info {
+    font-family: "calibri";
+    background-color: #212C34;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.info h1 {
+    font-size: 250%;
+}
+
+.info li {
+    color: white;
+    font-size: larger;
+}
+
+dl {
+    padding: 40px;
+    line-height: 20px;
+    font-size: x-large;
+}
+
+footer {
+    background-color: #212C34;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 7%;  
+    font-size: 20px;
+    padding-bottom: 20px;;
+}
+a {
+    color: white;
+}
